@@ -1,0 +1,23 @@
+/*RESET*/
+body, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 5px solid black;
+    margin: 50px auto;    
+    width: 545px;
+    height: 545px;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.square {
+    border: 1px solid black;
+    width: 32px;
+    height: 32px;
+}
