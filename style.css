@@ -7,9 +7,10 @@ body, ::before, ::after {
 
 .container {
     border: 5px solid black;
-    margin: 50px auto;    
-    width: 545px;
-    height: 545px;
+    margin: 50px auto;
+    padding: 0;
+    width: 550px;
+    height: 550px;
 
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +18,8 @@ body, ::before, ::after {
 }
 
 .square {
-    border: 1px solid black;
-    width: 32px;
-    height: 32px;
+    width: 34.375px;
+    height: 34.375px;
+    margin: 0;
+    padding: 0;
 }
