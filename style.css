@@ -5,6 +5,26 @@ body, ::before, ::after {
     box-sizing: border-box;
 }
 
+header {
+    text-align: center;
+}
+
+.ajustar-tamanho {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    font-weight: 600;
+}
+
+.ajustar-tamanho:hover {
+    background-color: rgb(60, 250, 250);
+    border: 2px solid rgb(183, 181, 181);
+    color: white;
+    cursor: pointer;
+}
+
 .container {
     border: 5px solid black;
     margin: 50px auto;
